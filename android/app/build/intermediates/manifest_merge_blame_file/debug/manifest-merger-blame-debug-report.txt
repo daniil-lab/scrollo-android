@@ -1,0 +1,144 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.nh.instahood"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/daniil/Downloads/code/instahood-master/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/daniil/Downloads/code/instahood-master/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/daniil/Downloads/code/instahood-master/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/daniil/Downloads/code/instahood-master/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.54.0] /Users/daniil/.gradle/caches/transforms-2/files-2.1/2fa344e99fbc8cc928a5b46ed302cce1/jetified-flipper-0.54.0/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.54.0] /Users/daniil/.gradle/caches/transforms-2/files-2.1/2fa344e99fbc8cc928a5b46ed302cce1/jetified-flipper-0.54.0/AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->[:react-native-camera] /Users/daniil/Downloads/code/instahood-master/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:9:5-65
+14-->[:react-native-camera] /Users/daniil/Downloads/code/instahood-master/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:9:22-62
+15
+16    <uses-feature
+16-->[:react-native-camera] /Users/daniil/Downloads/code/instahood-master/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:11:5-13:36
+17        android:name="android.hardware.camera"
+17-->[:react-native-camera] /Users/daniil/Downloads/code/instahood-master/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:12:9-47
+18        android:required="false" />
+18-->[:react-native-camera] /Users/daniil/Downloads/code/instahood-master/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:13:9-33
+19    <uses-feature
+19-->[:react-native-camera] /Users/daniil/Downloads/code/instahood-master/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:14:5-16:36
+20        android:name="android.hardware.camera.autofocus"
+20-->[:react-native-camera] /Users/daniil/Downloads/code/instahood-master/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:15:9-57
+21        android:required="false" />
+21-->[:react-native-camera] /Users/daniil/Downloads/code/instahood-master/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:16:9-33
+22
+23    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+23-->[:react-native-fs] /Users/daniil/Downloads/code/instahood-master/node_modules/react-native-fs/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-81
+23-->[:react-native-fs] /Users/daniil/Downloads/code/instahood-master/node_modules/react-native-fs/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-78
+24
+25    <queries>
+25-->[:react-native-image-crop-picker] /Users/daniil/Downloads/code/instahood-master/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-14:15
+26        <intent>
+26-->[:react-native-image-crop-picker] /Users/daniil/Downloads/code/instahood-master/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-13:18
+27            <action android:name="android.media.action.IMAGE_CAPTURE" />
+27-->[:react-native-image-crop-picker] /Users/daniil/Downloads/code/instahood-master/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-73
+27-->[:react-native-image-crop-picker] /Users/daniil/Downloads/code/instahood-master/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:21-70
+28        </intent>
+29    </queries>
+30
+31    <application
+31-->/Users/daniil/Downloads/code/instahood-master/android/app/src/main/AndroidManifest.xml:6:5-25:19
+32        android:name="com.nh.instahood.MainApplication"
+32-->/Users/daniil/Downloads/code/instahood-master/android/app/src/main/AndroidManifest.xml:7:7-38
+33        android:allowBackup="false"
+33-->/Users/daniil/Downloads/code/instahood-master/android/app/src/main/AndroidManifest.xml:11:7-34
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.1.0] /Users/daniil/.gradle/caches/transforms-2/files-2.1/7f5aeccd48d5bc731df0adf1c8d7029e/core-1.1.0/AndroidManifest.xml:24:18-86
+35        android:debuggable="true"
+36        android:icon="@mipmap/ic_launcher"
+36-->/Users/daniil/Downloads/code/instahood-master/android/app/src/main/AndroidManifest.xml:9:7-41
+37        android:label="@string/app_name"
+37-->/Users/daniil/Downloads/code/instahood-master/android/app/src/main/AndroidManifest.xml:8:7-39
+38        android:roundIcon="@mipmap/ic_launcher_round"
+38-->/Users/daniil/Downloads/code/instahood-master/android/app/src/main/AndroidManifest.xml:10:7-52
+39        android:theme="@style/AppTheme"
+39-->/Users/daniil/Downloads/code/instahood-master/android/app/src/main/AndroidManifest.xml:12:7-38
+40        android:usesCleartextTraffic="true" >
+40-->/Users/daniil/Downloads/code/instahood-master/android/app/src/debug/AndroidManifest.xml:7:18-53
+41        <activity
+41-->/Users/daniil/Downloads/code/instahood-master/android/app/src/main/AndroidManifest.xml:13:7-23:18
+42            android:name="com.nh.instahood.MainActivity"
+42-->/Users/daniil/Downloads/code/instahood-master/android/app/src/main/AndroidManifest.xml:14:9-37
+43            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+43-->/Users/daniil/Downloads/code/instahood-master/android/app/src/main/AndroidManifest.xml:16:9-86
+44            android:label="@string/app_name"
+44-->/Users/daniil/Downloads/code/instahood-master/android/app/src/main/AndroidManifest.xml:15:9-41
+45            android:launchMode="singleTask"
+45-->/Users/daniil/Downloads/code/instahood-master/android/app/src/main/AndroidManifest.xml:17:9-40
+46            android:windowSoftInputMode="adjustResize" >
+46-->/Users/daniil/Downloads/code/instahood-master/android/app/src/main/AndroidManifest.xml:18:9-51
+47            <intent-filter>
+47-->/Users/daniil/Downloads/code/instahood-master/android/app/src/main/AndroidManifest.xml:19:9-22:25
+48                <action android:name="android.intent.action.MAIN" />
+48-->/Users/daniil/Downloads/code/instahood-master/android/app/src/main/AndroidManifest.xml:20:13-65
+48-->/Users/daniil/Downloads/code/instahood-master/android/app/src/main/AndroidManifest.xml:20:21-62
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->/Users/daniil/Downloads/code/instahood-master/android/app/src/main/AndroidManifest.xml:21:13-73
+50-->/Users/daniil/Downloads/code/instahood-master/android/app/src/main/AndroidManifest.xml:21:23-70
+51            </intent-filter>
+52        </activity>
+53        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+53-->/Users/daniil/Downloads/code/instahood-master/android/app/src/main/AndroidManifest.xml:24:7-84
+53-->/Users/daniil/Downloads/code/instahood-master/android/app/src/main/AndroidManifest.xml:24:17-81
+54
+55        <provider
+55-->[:react-native-image-crop-picker] /Users/daniil/Downloads/code/instahood-master/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-27:20
+56            android:name="androidx.core.content.FileProvider"
+56-->[:react-native-image-crop-picker] /Users/daniil/Downloads/code/instahood-master/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-62
+57            android:authorities="com.nh.instahood.provider"
+57-->[:react-native-image-crop-picker] /Users/daniil/Downloads/code/instahood-master/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-60
+58            android:exported="false"
+58-->[:react-native-image-crop-picker] /Users/daniil/Downloads/code/instahood-master/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-37
+59            android:grantUriPermissions="true" >
+59-->[:react-native-image-crop-picker] /Users/daniil/Downloads/code/instahood-master/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-47
+60            <meta-data
+60-->[:react-native-image-crop-picker] /Users/daniil/Downloads/code/instahood-master/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-26:58
+61                android:name="android.support.FILE_PROVIDER_PATHS"
+61-->[:react-native-image-crop-picker] /Users/daniil/Downloads/code/instahood-master/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:17-67
+62                android:resource="@xml/provider_paths" />
+62-->[:react-native-image-crop-picker] /Users/daniil/Downloads/code/instahood-master/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:17-55
+63        </provider>
+64
+65        <activity
+65-->[:react-native-image-crop-picker] /Users/daniil/Downloads/code/instahood-master/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:9-31:72
+66            android:name="com.yalantis.ucrop.UCropActivity"
+66-->[:react-native-image-crop-picker] /Users/daniil/Downloads/code/instahood-master/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:13-60
+67            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+67-->[:react-native-image-crop-picker] /Users/daniil/Downloads/code/instahood-master/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-69
+68        <activity
+68-->[com.google.android.gms:play-services-base:16.0.1] /Users/daniil/.gradle/caches/transforms-2/files-2.1/1ad6625553f9c8303c99ef5c95b4d99a/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+69            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+69-->[com.google.android.gms:play-services-base:16.0.1] /Users/daniil/.gradle/caches/transforms-2/files-2.1/1ad6625553f9c8303c99ef5c95b4d99a/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+70            android:exported="false"
+70-->[com.google.android.gms:play-services-base:16.0.1] /Users/daniil/.gradle/caches/transforms-2/files-2.1/1ad6625553f9c8303c99ef5c95b4d99a/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+71            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+71-->[com.google.android.gms:play-services-base:16.0.1] /Users/daniil/.gradle/caches/transforms-2/files-2.1/1ad6625553f9c8303c99ef5c95b4d99a/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+72
+73        <meta-data
+73-->[com.google.android.gms:play-services-basement:16.1.0] /Users/daniil/.gradle/caches/transforms-2/files-2.1/12e2c92fe95115c444318aab173391cc/jetified-play-services-basement-16.1.0/AndroidManifest.xml:23:9-25:69
+74            android:name="com.google.android.gms.version"
+74-->[com.google.android.gms:play-services-basement:16.1.0] /Users/daniil/.gradle/caches/transforms-2/files-2.1/12e2c92fe95115c444318aab173391cc/jetified-play-services-basement-16.1.0/AndroidManifest.xml:24:13-58
+75            android:value="@integer/google_play_services_version" />
+75-->[com.google.android.gms:play-services-basement:16.1.0] /Users/daniil/.gradle/caches/transforms-2/files-2.1/12e2c92fe95115c444318aab173391cc/jetified-play-services-basement-16.1.0/AndroidManifest.xml:25:13-66
+76        <meta-data
+76-->[com.github.bumptech.glide:okhttp3-integration:4.11.0] /Users/daniil/.gradle/caches/transforms-2/files-2.1/6046c2e7efe833b3945f37489d13ca36/jetified-okhttp3-integration-4.11.0/AndroidManifest.xml:11:9-13:43
+77            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+77-->[com.github.bumptech.glide:okhttp3-integration:4.11.0] /Users/daniil/.gradle/caches/transforms-2/files-2.1/6046c2e7efe833b3945f37489d13ca36/jetified-okhttp3-integration-4.11.0/AndroidManifest.xml:12:13-84
+78            android:value="GlideModule" />
+78-->[com.github.bumptech.glide:okhttp3-integration:4.11.0] /Users/daniil/.gradle/caches/transforms-2/files-2.1/6046c2e7efe833b3945f37489d13ca36/jetified-okhttp3-integration-4.11.0/AndroidManifest.xml:13:13-40
+79    </application>
+80
+81</manifest>
